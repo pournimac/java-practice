@@ -1,9 +1,9 @@
 package com.example.array;
 
-public class Maxnumber {
+public class SecondMaxnumber {
     public static void main(String args[]){
         int[] arr = {1,2,3,4,5,10,2,3};
-        Maxnumber obj = new Maxnumber();
+        SecondMaxnumber obj = new SecondMaxnumber();
         int ans = obj.maxNumber(arr);
         System.out.println(ans);
     }
@@ -19,6 +19,6 @@ public class Maxnumber {
                 temp = arr[i];
             }
         }
-        return max;
+        return temp;
     }
 }
